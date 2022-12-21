@@ -46,6 +46,24 @@
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="FrPage2_Tapped" />
                 </Frame.GestureRecognizers>
             </Frame>
+
+            <Frame
+                Padding="5,0"
+                BackgroundColor="#1ABC9C"
+                CornerRadius="10"
+                HeightRequest="50"
+                WidthRequest="200">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    HorizontalTextAlignment="Center"
+                    Text="Page Three"
+                    TextColor="White"
+                    VerticalTextAlignment="Center" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="FrPage3_Tapped" />
+                </Frame.GestureRecognizers>
+            </Frame>
         </StackLayout>
     </ScrollView>
 

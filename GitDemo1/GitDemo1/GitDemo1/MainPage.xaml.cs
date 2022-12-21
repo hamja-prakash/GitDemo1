@@ -24,5 +24,10 @@ namespace GitDemo1
         {
             Navigation.PushAsync(new PageTwo());
         }
+
+        private void FrPage3_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PageThree());
+        }
     }
 }
