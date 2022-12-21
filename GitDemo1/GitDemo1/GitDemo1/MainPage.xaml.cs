@@ -14,5 +14,15 @@ namespace GitDemo1
         {
             InitializeComponent();
         }
+
+        private void FrmPage1_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PageOne());
+        }
+
+        private void FrPage2_Tapped(object sender, EventArgs e)
+        {
+
+        }
     }
 }
